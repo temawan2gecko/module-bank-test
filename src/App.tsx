@@ -1,3 +1,11 @@
+// Complonents
+import { Layout } from "./components/Common/Layout";
+import { VideoPlayer } from "./components/Player/VideoPlayer";
+
 export const App = () => {
-  return <div>App</div>;
+  return (
+    <Layout>
+      <VideoPlayer />
+    </Layout>
+  );
 };
